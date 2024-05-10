@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Výběr oblohy hot dogů</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Vyber si oblohu na hot dog</h2>
+         <div id="toppings"></div>
+    </div>
+
+    <style>
+        .container {
+            max-width: 20rem;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .topping {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 15px 5px 15px;
+            gap: 0.5rem;
+            align-items: baseline;
+            background-color: lightgreen;
+            margin-bottom: 0.5rem;
+            border-radius: 3px;
+            outline: 1px solid grey;
+        }
+        .topping--selected {
+            background-color: coral;
+        }
+        h2 {
+            margin: 0;
+            padding: 20px 10px;
+
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center; 
+        }
+        h3 {
+            margin: 0;
+        }
+        p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style> 
+
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
